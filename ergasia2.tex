@@ -1,6 +1,29 @@
 \documentclass[12pt]{article}
+\usepackage[LGR, T1]{fontenc} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[greek]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
 
 \begin{document}
-
+\title{Εργασία $2^\eta$ Αριθμητικής Ανάλυσης}
+\date{ΑΜ: 1112201500079}
+\author{Κακούρης Φώτιος}
+\maketitle{}
     
+\begin{enumerate}
+    \item[\underline{$1^\eta$ Άσκηση}] Στο τροποιημένο αρχείο \textlatin{GE.m}, όλες οι πράξεις γίνονται πάνω στον πίνακα Α, 
+    απελευθερώνοντας τις θέσεις μνήμης που είχαν οι πίνακες \textlatin{L,U}. \newline
+    Για να βρούμε την ορίζουσα χρησιμοποιούμε: $$ A=L*U \rightarrow det(A)=det(L)*det(U) $$ κι αφού \textlatin{L,U} είναι τριγωνικοί πίνακες, η ορίζουσα τους είναι 
+    το γινόμενο των διαγωνίων στοιχείων τους. $det(L)=1$, οπότε η ορίζουσα του Α είναι το γινόμενο των διαγωνίων στοιχείων του \textlatin{U}.  $det(A): 289.000000$ \newline
+    Για να βρούμε τον αντίστροφο του Α, χρησιμοποιούμε τις \textlatin{Lsol, Usol} 7 φορές ώστε να λύσουμε το σύστημα $ AΑ^{-1} = I_7 $. Καθένα από τα 7 συστήματα είναι 
+    της μορφής $A x_i = e_i $ όπου $x_i$ η \textlatin{i}-στήλη του αντιστρόφου και $e_i$ η \textlatin{i}-στήλη του ταυτοτικού πίνακα.
+
+
+    \item[\underline{$2^\eta$ Άσκηση}]  
+ 
+
+
+\end{enumerate}
+
 \end{document}
